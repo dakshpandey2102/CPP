@@ -27,6 +27,6 @@ int main(){
 // → 20 is not 0
 // → TRUE → keeps running
 // → assigns 20 to i again
-// → checks 20 again
+// → checks 20 again 
 // → TRUE again
 // → forever...

@@ -1,4 +1,4 @@
- // wap to check if a number is composite or not 
+   // wap to check if a number is composite or not 
 //   if n has extra factor/ factors except 1 and n then it is composite.
  #include <iostream>
  using namespace std;

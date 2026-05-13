@@ -91,17 +91,91 @@
 //     }
 //     cout<< f;
 // }
-#include <iostream>
-using namespace std;
-int main(){
-    int n;
-    cout<<"enter n :";
-    cin>> n;
-    int f=1;// f will store the highest factor found so far.because 1 is always a factor of n so we are initializing f to 1
-    for(int i=1; i<=n/2;i++){
-        if(n%i == 0){
-            f=i;
-        }
-    }
-    cout<< f;
-}
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"enter n :";
+//     cin>> n;
+//     int f=1;// f will store the highest factor found so far.because 1 is always a factor of n so we are initializing f to 1
+//     for(int i=1; i<=n/2;i++){
+//         if(n%i == 0){
+//             f=i;
+//         }
+//     }
+//     cout<< f;
+// }
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<< "enter n :";
+//     cin>> n;
+//     for(int i=n/2;i>=1;i--){
+//         if (n%i ==0){
+//             cout<< i<<" ";
+//             break;// to get out of the loop
+//         }
+//     }
+// }
+// wap to check if a number is composite or not 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<< " enter n:";
+//     cin>>n;
+//     bool flag = true;// true means prime 
+//     for(int i =2;i<=n/2;i++){
+//         if (n%i==0){
+//             flag = false;// false means composite
+//             break;
+//         }
+//     }
+//     if (n==1) cout<< "neither prime nor composite";
+//     else if(flag == true) cout<< "prime";
+//     else cout<< "composite"; 
+
+// }
+// print odd numbers from 1 to 100 using continue 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     for (int i=1 ; i<=100;i++){
+//         if (i%2 == 0) continue;// this will skip the current iteration of the loop and move to the next iteration without executing the remaining code in the loop for that particular value of i if i is even because we are checking if i is divisible by 2 without leaving a remainder and if it is then we are using continue to skip the current iteration of the loop and move to the next iteration without executing the remaining code in the loop for that particular value of i
+//         cout<< i<< " ";
+//     }
+// }
+// print even numbers from 1 to 100 using continue'
+// #include <iostream>
+// using namespace std ;
+// int main(){
+//     for (int i=1 ; i<=100;i++){
+//         if (i%2 !=0) continue;// this will skip the current iteration of the loop and move to the next iteration without executing the remaining code in the loop for that particular value of i if i is odd because we are checking if i is not divisible by 2 without leaving a remainder and if it is then we are using continue to skip the current iteration of the loop and move to the next iteration without executing the remaining code in the loop for that particular value of i
+//         cout << i<< "  ";
+//     }
+// }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     for (int i=1; i<=100;i++){
+//         cout<< i<<" ";
+//     }
+// }
+// for (condition, expression, update){
+//     // body of the loop      
+// }
+// while (condition){
+//     // body of the loop      
+// }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i =1;
+//     while(i<=10){
+//         cout<< i<< " ";
+//         i++;
+//     }
+// }
+
+ 
