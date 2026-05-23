@@ -6,7 +6,6 @@ int main(){
     cout<< "enter n";
     cin >> n;
 
-    cout<<sqrt(n);
-    cout <<" cube root"<< endl;
-    cout << cbrt(n);
+    cout<<sqrt(n)<< endl;
+    cout<<cbrt(n);
 }
