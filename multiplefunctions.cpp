@@ -9,7 +9,9 @@ void india(){
     cout<<" you are in India"<<endl;
     usa();
 }
+
 int main(){
+    
     usa();
      cout<<"You are in main"<<endl;
      india();
