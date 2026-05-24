@@ -8,11 +8,11 @@
 // pascal triangle
 #include<iostream>
 using namespace std;
-int fact(int n){
+int fact(int n){//Also your function parameters are wrong — factorial needs only one number, not (int i, int j).
     int f=1;
-    for(int i=1;i<=n;i++){
-        f=f*i;
-    }
+    for(int i=1;i<=n;i++){// not taking for(int i=1;i<=f;i++) as
+        f=f*i;// But f is initially 1, so loop runs only once.
+    }//You shoud loop till the number whose factorial you want.
     return f;
 }
 int main(){
