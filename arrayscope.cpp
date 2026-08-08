@@ -18,7 +18,7 @@ void update(int arr[], int n){
 int main(){
     int arr [3] = {1,2,3};
     update(arr, 3);
-    
+    // Array ko function mein pass karke uske elements update karoge → original array update hoga, separate copy nahi.
     // printing the array
     cout<< endl << " printing in main function" << endl;
     for(int i=0; i<3;i++){
