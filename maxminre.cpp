@@ -3,24 +3,27 @@
 using namespace std;
 // INT_MIN To INT_MAX range is from -2^31 to 2^31, so we use them to count these values;
 int getMin(int num[], int n){
-    int min = INT_MAX;
+    int mini = INT_MAX;// 2^31 or 2147483647
     for (int i=0;i<n;i++){
-        if(num[i] < min){
-            min = num[i];
-        }
+        mini = min( mini, num[i]);
+        // if(num[i] < min){
+        //     min = num[i];
+        // }
     }
-    return min;
+    return mini;
 }
 int getMax(int num[], int n){
-    int max = INT_MIN;
+    int maxi = INT_MIN;
 
     for(int i=0;i<n;i++){
-        if(num[i] > max){
-            max = num[i];
-        }
+
+        maxi = max(maxi, num[i]);
+        // if(num[i] > max){
+        //     max = num[i];
+        // }
     }
     // returning max value 
-    return max;
+    return maxi;
 }
 
 int main(){
